@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Enactus Leicester</title>
 <meta name="description" content="">
-<meta name="author" content="">
+<meta name="author" content="A.M.A.H. Sabra" >
 
 <!-- Favicons
     ================================================== -->
@@ -94,7 +94,7 @@
         <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
       </div>
       <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="400ms"> <i class="fa fa-gears"></i>
-        <h4><strong>App Development</strong></h4>
+        <h4><strong>App DevFelopment</strong></h4>
         <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
       </div>
       <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="600ms"> <i class="fa fa-bullhorn"></i>
@@ -138,8 +138,8 @@
           <div class="portfolio-item wow fadeInUp" data-wow-delay="200ms">
             <div class="hover-bg"> <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
               <div class="hover-text">
-                <h4>Operation Chandpur</h4>
-                International
+                <h4>Project Title</h4>
+                Web Design
                 <div class="clearfix"></div>
                 <i class="fa fa-plus"></i> </div>
               <img src="img/portfolio/01.jpg" class="img-responsive" alt="Project Title"> </a> </div>
@@ -149,8 +149,8 @@
           <div class="portfolio-item wow fadeInUp" data-wow-delay="400ms">
             <div class="hover-bg"> <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
               <div class="hover-text">
-                <h4>Fresh Start</h4>
-                Local
+                <h4>Project Title</h4>
+                App Development
                 <div class="clearfix"></div>
                 <i class="fa fa-plus"></i> </div>
               <img src="img/portfolio/02.jpg" class="img-responsive" alt="Project Title"> </a> </div>
@@ -160,8 +160,8 @@
           <div class="portfolio-item wow fadeInUp" data-wow-delay="600ms">
             <div class="hover-bg"> <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
               <div class="hover-text">
-                <h4>Project Body</h4>
-               Local
+                <h4>Project Title</h4>
+               Web Design
                 <div class="clearfix"></div>
                 <i class="fa fa-plus"></i> </div>
               <img src="img/portfolio/03.jpg" class="img-responsive" alt="Project Title"> </a> </div>
@@ -171,8 +171,8 @@
           <div class="portfolio-item wow fadeInUp" data-wow-delay="800ms">
             <div class="hover-bg"> <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
               <div class="hover-text">
-                <h4>Farmers' Market</h4>
-                Commercial
+                <h4>Project Title</h4>
+                Web Design
                 <div class="clearfix"></div>
                 <i class="fa fa-plus"></i> </div>
               <img src="img/portfolio/04.jpg" class="img-responsive" alt="Project Title"> </a> </div>
@@ -182,30 +182,41 @@
           <div class="portfolio-item wow fadeInUp" data-wow-delay="1000ms">
             <div class="hover-bg"> <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
               <div class="hover-text">
-                <h4>Pathways</h4>
-               Local
+                <h4>Project Title</h4>
+                App Development
                 <div class="clearfix"></div>
                 <i class="fa fa-plus"></i> </div>
               <img src="img/portfolio/05.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 branding">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="1200ms">
+            <div class="hover-bg"> <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                Branding
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="img/portfolio/06.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="1400ms">
+            <div class="hover-bg"> <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                App Development, Branding
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="img/portfolio/07.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item wow fadeInUp" data-wow-delay="1600ms">
             <div class="hover-bg"> <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
               <div class="hover-text">
-                <h4>Project Smoothie</h4>
-                Commercial
-                <div class="clearfix"></div>
-                <i class="fa fa-plus"></i> </div>
-              <img src="img/portfolio/08.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-	 <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item wow fadeInUp" data-wow-delay="1600ms">
-            <div class="hover-bg"> <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-              <div class="hover-text">
-                <h4>Web Development</h4>
-                Commercial
+                <h4>Project Title</h4>
+                Web Design
                 <div class="clearfix"></div>
                 <i class="fa fa-plus"></i> </div>
               <img src="img/portfolio/08.jpg" class="img-responsive" alt="Project Title"> </a> </div>
@@ -252,16 +263,18 @@
       <div class="clearfix"></div>      
       <p>"Unity is strength. . . when there is teamwork and collaboration, wonderful things can be achieved." --Mattie Stepanek</p>
     </div>
-    <!-- row 1 start -->
-    <div id="row">
+    <h4>Executive Committee</h4>
+    <div id="row">    
+
       <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="200ms">
         <div class="thumbnail"> <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
           <div class="caption">
-            <h3>Kash Chundoo</h3>
-            <p>President</p>
+            <h3>Jessica Wally</h3>
+            <p>CEO / Founder</p>
                         <ul class="list-inline">
               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
             </ul>
           </div>
         </div>
@@ -269,11 +282,12 @@
       <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="400ms">
         <div class="thumbnail"> <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
           <div class="caption">
-            <h3>Naomi Lapite</h3>
-            <p>Vice President</p>
+            <h3>Mike Sloan</h3>
+            <p>Web Designer</p>
                         <ul class="list-inline">
               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
             </ul>
           </div>
         </div>
@@ -281,11 +295,12 @@
       <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="600ms">
         <div class="thumbnail"> <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
           <div class="caption">
-            <h3>Sheen Chin</h3>
-            <p>Corporate Relations Executive</p>
+            <h3>Michele Doe</h3>
+            <p>Web Designer</p>
                        <ul class="list-inline">
               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
             </ul>
           </div>
         </div>
@@ -293,164 +308,17 @@
       <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="800ms">
         <div class="thumbnail"> <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
           <div class="caption">
-            <h3>Priyesh Mavji</h3>
-            <p>Head Web Developer</p>
+            <h3>Larry Evans</h3>
+            <p>Project Manager</p>
                         <ul class="list-inline">
               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-<!-- row 1 end -->
-<!-- row 2 start -->
-    <div id="row">
-      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="200ms">
-        <div class="thumbnail"> <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
-          <div class="caption">
-            <h3>David Sanchez Perilla</h3>
-            <p>Project Leader</p>
-                        <ul class="list-inline">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="400ms">
-        <div class="thumbnail"> <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
-          <div class="caption">
-            <h3>Priyesha Vijendra</h3>
-            <p>Project Leader</p>
-                        <ul class="list-inline">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="600ms">
-        <div class="thumbnail"> <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
-          <div class="caption">
-            <h3>Alissa Huang Qingyuan</h3>
-            <p>Project Leader</p>
-                       <ul class="list-inline">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="800ms">
-        <div class="thumbnail"> <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
-          <div class="caption">
-            <h3>Tom Perks</h3>
-            <p>Project Leader / Treasurer</p>
-                        <ul class="list-inline">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-<!-- row 2 end -->
-<!-- row 3 start -->
-    <div id="row">
-      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="200ms">
-        <div class="thumbnail"> <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
-          <div class="caption">
-            <h3>Alex Marsh</h3>
-            <p>Project Leader</p>
-                        <ul class="list-inline">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="400ms">
-        <div class="thumbnail"> <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
-          <div class="caption">
-            <h3>Arllen Orias</h3>
-            <p>Secretary</p>
-                        <ul class="list-inline">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="600ms">
-        <div class="thumbnail"> <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
-          <div class="caption">
-            <h3>Patrick Batuka</h3>
-            <p>Social Secretary / Web Developer</p>
-                       <ul class="list-inline">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="800ms">
-        <div class="thumbnail"> <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
-          <div class="caption">
-            <h3>Amir Sabra</h3>
-            <p>Web Developer</p>
-                        <ul class="list-inline">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-<!-- row 3 end -->
-<!-- row 4 start -->
-    <div id="row">
-      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="200ms">
-        <div class="thumbnail"> <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
-          <div class="caption">
-            <h3>Jermaine Koramoah</h3>
-            <p>Web Developer</p>
-                        <ul class="list-inline">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="400ms">
-        <div class="thumbnail"> <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
-          <div class="caption">
-            <h3>Nikhail Fernandes</h3>
-            <p>Web Developer</p>
-                        <ul class="list-inline">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="600ms">
-        <div class="thumbnail"> <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
-          <div class="caption">
-            <h3>Ryan Stawiszynski</h3>
-            <p>Web Developer</p>
-                       <ul class="list-inline">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="800ms">
-      </div>
-    </div>
-<!-- row 4 end -->
-    
   </div>
 </div>
 <!-- Testimonials Section -->
@@ -490,7 +358,7 @@
       <p>To become part of Enactus and find out more, don't hesitate to leave us a message and you can follow us on the social links below</p>
     </div>
     <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-delay="200ms">
-      <div class="col-md-4"><div class = "social"><a href="https://goo.gl/maps/ZqDL3tEYeb72" target = "_blank"><i class="fa fa-map-marker fa-2x"></a></i></div>
+      <div class="col-md-4"><div class = "social"><a href="https://goo.gl/maps/ZqDL3tEYeb72"><i class="fa fa-map-marker fa-2x"></i></div>
           <p>Enactus Leicester,<br/>
           Percy Gee Building,<br/>
 	  University of Leicester,<br/>
@@ -532,6 +400,7 @@
         <ul>
           <li><a href="https://www.facebook.com/enactus.leicester" target = "_blank"><i class="fa fa-facebook"></i></a></li>
           <li><a href="https://www.twitter.com/enactusleiceste" target = "_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.github.com/pmavji/Enactus-Leicester" target = "_blank"><i class="fa fa-github"></i></a></li>
           <li><a href="https://www.instagram.com/enactusleicester" target = "_blank"><i class="fa fa-instagram"></i></a></li>
         </ul>
       </div>
