@@ -1,0 +1,156 @@
+.mhSlideshow {
+	position:relative;
+	display:block;
+	margin:0 auto;
+}
+.fullscreen {
+	position:fixed;
+	display:block;
+	top:0px;
+	left:0px;
+	z-index:10000;
+	margin:0 auto;
+}
+.mhSlideshowBg {
+	display:block;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:10;
+}
+.mhSlideshow img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.slideContainer, .navArrowWrap {
+	position:absolute;
+	display:block;
+	z-index:100;
+	overflow:hidden;
+}
+.bgWrap, .slide {
+	display:block;
+	position:absolute;
+	z-index:200;
+	height:100%;
+}
+.slice {
+	display:block;
+	position:absolute;
+	z-index:200;
+	height:100%;
+}
+.captionBar {
+	position:absolute;
+	left:0px;
+	z-index:400;
+}
+.caption {
+	margin:0 auto;
+}
+.caption a {
+	display:inline !important;
+}
+.navArrows a {
+	position:absolute;
+	display:block;
+	width:32px;
+	height:32px;
+	border:0;
+	top:40%;
+	z-index:300;
+	cursor:pointer;
+}
+.thumbBar {
+	position:absolute;
+	left:0px;
+	z-index:600;
+	display:block;
+}
+.thumbLeftArrow, .thumbRightArrow, .thumbPause, .thumbPlay, .thumbFullscreen{
+	position:absolute;
+	display:block;
+	width:30px;
+	height:30px;
+	border:0;
+	cursor:pointer;
+}
+.thumbLeftArrow {
+	left:0px;
+}
+.thumbArea {
+	position:absolute;
+	display:block;
+	overflow:hidden;
+}
+.thumbControls {
+	position:absolute;
+	display:block;
+}
+.thumbImage {
+	position:absolute;
+	display:block;
+	overflow:hidden;
+	cursor:pointer;
+}
+.thumbBorder {
+	position:absolute;
+	display:block;
+}
+.thumbContent {
+	position:absolute;
+	display:block;
+	overflow:hidden;
+}
+
+
+.whiteLeftArrow {
+	background:url(leftarrow3.png) no-repeat;
+}
+
+.whiteRightArrow {
+	background:url(rightarrow3.png) no-repeat;
+}
+
+.whiteThumbLeftArrow {
+	background:url(leftarrow.png) no-repeat;
+}
+.whiteThumbRightArrow {
+	background:url(rightarrow.png) no-repeat;
+}
+
+.blackLeftArrow {
+	background:url(leftarrow2.png) no-repeat;
+}
+
+.blackRightArrow {
+	background:url(rightarrow2.png) no-repeat;
+}
+
+.blackThumbLeftArrow {
+	background:url(blackleftarrow.png) no-repeat;
+}
+
+.blackThumbRightArrow {
+	background:url(blackrightarrow.png) no-repeat;
+}
+.whiteThumbPause {
+	background:url(pause.png) no-repeat;
+}
+.whiteThumbPlay {
+	background:url(play.png) no-repeat;
+}
+.blackThumbPause {
+	background:url(blackpause.png) no-repeat;
+}
+.blackThumbPlay {
+	background:url(blackplay.png) no-repeat;
+}
+.whiteFullscreen {
+	background:url(fullscreen.png) no-repeat;
+}
+.blackFullscreen {
+	background:url(blackfullscreen.png) no-repeat;
+}
