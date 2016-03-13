@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="http://www.super4karting.com/enactus/favicon.ico">
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+
+<title>Enactus Leicester - Welcome</title>
+</head>
+<body style="background:#CCC;">
+	
+    <div id="header">
+    <img src="enactus_logoWEB.png" width="400" height="238"style="float:left"> 
+    <img src="banner.jpg" width="600" height="131" style="float:right"> </div>
+<div id="menu">
+  <div class="mencol">
+        <ul id="navbar">
+		<li><a href="index.html"><h4> Home </h4></a><ul>
+		</li>
+		</ul>
+        </div>
+  <div class="mencol">
+        <ul id="navbar">
+		<li><a href="#"><h4> About Us </h4></a><ul>
+		<li><a href="aboutuk.html">Enactus UK</a></li>
+		<li><a href="aboutleicester.html">Enactus Leicester</a></li>
+		</ul>
+		</li>
+		</ul>
+        </div>
+  <div class="mencol">
+        <ul id="navbar">
+		<li><a href="#"><h4> Projects </h4></a><ul>
+		<li><a href="ethiopia.html">Inspire Ethiopia</a></li>
+		<li><a href="choco.html">Choconet</a></li>
+		<li><a href="body.html">Body</a></li>
+        <li><a href="farmers.html">Farmer's Market</a></li>
+        </ul>
+		</li>
+		</ul>
+        </div>
+  <div class="mencol">
+        <ul id="navbar">
+		<li><a href="sponsors.html"><h4> Sponsors </h4></a><ul>
+		</li>
+		</ul>
+        </div>
+  <div class="mencol">
+        <ul id="navbar" style="z-index:1">
+		<li><a href="contact.html"><h4> Contact </h4></a><ul>
+		</li>
+		</ul>
+  </div>
+</div>
+    <center>
+    <div style="width:1000px;height:100%">
+    
+    <h2 style="color:#515356">Contact</h2>
+    <div style="width:600px">
+    <p style="color:#515356">For information on how to join one of our projects and become a member or for any other enquiries regarding Enactus Leicester, there are a number of ways to get in touch. Simply fill in the form below:
+<br><br>
+<?php 
+$action=$_REQUEST['action']; 
+if ($action=="")    /* display the contact form */ 
+    { 
+    ?> 
+    <form  action="" method="POST" enctype="multipart/form-data"> 
+    <input type="hidden" name="action" value="submit"> 
+    Your name:<br> 
+    <input name="name" type="text" value="" size="30"/><br> 
+    Your email:<br> 
+    <input name="email" type="text" value="" size="30"/><br> 
+    Your message:<br> 
+    <textarea name="message" rows="7" cols="30"></textarea><br> 
+    <input type="submit" value="Send email"/> 
+    </form> 
+    <?php 
+    }  
+else                /* send the submitted data */ 
+    { 
+    $name=$_REQUEST['name']; 
+    $email=$_REQUEST['email']; 
+    $message=$_REQUEST['message']; 
+    if (($name=="")||($email=="")||($message=="")) 
+        { 
+        echo "All fields are required, please fill the form again."; 
+        } 
+    else{         
+        $from="From: $name<$email>\r\nReturn-path: $email"; 
+        $subject="Message sent using your contact form"; 
+        mail("ja.farrow@tiscali.co.uk", $subject, $message, $from); 
+        echo "Thank you for your email"; 
+        } 
+    }   
+	?> 
+<br><br>
+Alternatively, drop us an email at:
+<br><br>
+<a href="mailto:su-enactus@le.ac.uk">su-enactus@le.ac.uk</a>
+<br><br>
+Like us on Facebook:
+<br><br>
+<a href="http://www.facebook.com/enactusleicester">Enactus Leicester</a>
+<br><br>
+Follow us on twitter:
+<br><br>
+<a href="http://www.twitter.com/enactusleiceste">@enactusleiceste</a>
+<br><br>
+or come and check us out for yourself at one of our campus events.</p>
+<br><br>
+Website hosted by <a href="http://www.exclusivewebsystems.com">ExclusiveWebSystems.com</a>
+    </div>
+    
+    </div>
+    </center>
+	<div id="footer">
+    	<div class="footcold">
+        <p style="font-size:13px;color:#CCC;position:absolute;margin-top:-0px">
+        <img src="foot.jpg" width="" height="" style="margin-left:-30px"><br>
+<strong><span style="color:#C88A12">En</span><span style="color:white">trepreneurial</span></strong> - having the perspective to see an opportunity and the talent to create value from that opportunity;<br><br>
+		<strong><span style="color:#C88A12">Act</span><span style="color:white">ion</span></strong> - the willingness to do something and the commitment to see it through even when the outcome is not guaranteed;<br><br>
+		<strong><span style="color:#C88A12">Us</span></strong> - a group of people who see themselves connected in some important way; individuals that are part of a greater whole.
+        </p>
+      </div>
+    	<div class="footcol">
+        
+        </div>
+        <div class="footcol">
+        
+        </div>
+        <div class="footcole">
+        <h3 style="color:#CCC;position:absolute;text-align:left"> Get Connected <br><br>
+        <table>
+            <tr><td><a id="facebook" href="http://www.facebook.com/enactus.leicester" target="new"><img src="facebook.png" width="" height="20"> </a></td></tr>
+            <tr></tr>
+            <tr><td><a id="twitter" href="http://www.twitter.com/enactusleiceste" target="new"><img src="twitter.png" width="" height="20"> </a></td></tr>
+          </table></h3>
+        </div>
+	</div>
+</body>
+</html>

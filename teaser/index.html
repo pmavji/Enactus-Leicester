@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Enactus Leicester</title>
+		<meta name="description" content="A perspective slideshow based on Franklin Ta's CSS matrix3d transforms" />
+		<meta name="keywords" content="perspective, mockup, slideshow, transform, 3d, matrix, css" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/mockup1.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body class="demo-1">
+		<div class="container">
+			<div id="wrap" class="wrap">
+				<div class="mockup">
+					<img class="mockup__img" src="img/mockup.jpg" />
+					<div id="mobile" class="mobile">
+						<ul id="slideshow" class="slideshow">
+							<li class="slideshow__item"><img src="img/small/11.jpg" /></li>
+							<li class="slideshow__item"><img src="img/small/22.jpg" /></li>
+							<li class="slideshow__item"><img src="img/small/3.jpg" /></li>
+							<li class="slideshow__item"><img src="img/small/4.jpg" /></li>
+							<li class="slideshow__item"><img src="img/small/5.jpg" /></li>
+							<li class="slideshow__item"><img src="img/small/6.jpg" /></li>
+							<li class="slideshow__item"><img src="img/small/7.jpg" /></li>
+							<li class="slideshow__item"><img src="img/small/8.jpg" /></li>
+							<li class="slideshow__item"><img src="img/small/9.jpg" /></li>
+							<li class="slideshow__item"><img src="img/small/10.jpg" /></li>
+							
+							
+
+						</ul>
+					</div>
+					<header class="codrops-header">
+						<h1><span>Coming Soon</span> Enactus </h1>
+						<h1>&nbsp; Leicester</h1>
+					
+			
+					</header>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+			(function() {
+				new Slideshow( document.getElementById( 'slideshow' ) );
+
+				/* Mockup responsiveness */
+				var body = docElem = window.document.documentElement,
+					wrap = document.getElementById( 'wrap' ),
+					mockup = wrap.querySelector( '.mockup' ),
+					mockupWidth = mockup.offsetWidth;
+
+				scaleMockup();
+
+				function scaleMockup() {
+					var wrapWidth = wrap.offsetWidth,
+						val = wrapWidth / mockupWidth;
+
+					mockup.style.transform = 'scale3d(' + val + ', ' + val + ', 1)';
+				}
+				
+				window.addEventListener( 'resize', resizeHandler );
+
+				function resizeHandler() {
+					function delayed() {
+						resize();
+						resizeTimeout = null;
+					}
+					if ( typeof resizeTimeout != 'undefined' ) {
+						clearTimeout( resizeTimeout );
+					}
+					resizeTimeout = setTimeout( delayed, 50 );
+				}
+
+				function resize() {
+					scaleMockup();
+				}
+			})();
+		</script>
+	</body>
+</html>
