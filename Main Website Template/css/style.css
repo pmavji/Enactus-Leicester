@@ -515,8 +515,9 @@ img.img-circle.team-img {
 	height: auto;
 }
 #testimonial .item p {
+	color: #fff;
 	font-weight: 400;
-	margin: 0 0 30px 0;
+	margin: 50px 0 30px 0;
 }
 /* Contact Section */
 #contact-section {
