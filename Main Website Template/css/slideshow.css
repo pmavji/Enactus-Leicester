@@ -1,0 +1,15 @@
+#sampletext {
+  position: absolute; 
+  font : italic bold 60px arial;
+  color : #aaaaaa;
+  margin-top : 200px;
+}
+
+
+#slideshow > div { 
+    position: absolute; 
+    top: 0px; 
+    left: 150px; 
+    right: 150px; 
+    bottom: 0px;
+}
