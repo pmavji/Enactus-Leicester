@@ -12,12 +12,13 @@ h1 strong {
 }
 h2 {
 	font-size: 36px;
-	color:white;
+	color: white;
 	margin: 0;
 }
 h3 {
 	font-size: 16px;
 	font-weight: 700;
+	color: #fff;
 }
 h5 {
 	text-transform: uppercase;
@@ -27,6 +28,7 @@ h5 {
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
+	color: #fff;
 }
 a {
 	color: #5b777f;
@@ -453,6 +455,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 	background: -webkit-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
+	background: url(../img/maxresdefault5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 #team-section hr {
 	background: #a9971c;
