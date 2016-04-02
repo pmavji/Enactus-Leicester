@@ -672,6 +672,14 @@ label {
 float:left;	
 	}
 	
+#logo2{
+float:left;	
+	}
+	
+#logo3{
+float:left;	
+	}
+
 #textcolor{
 color:white;
 font-size: 17px;
@@ -681,10 +689,113 @@ font-size: 17px;
 color:white;
 }
 
-#closeM{
+#textcolor3{
+color:#032E3A;
+}
+
+#textcolor4{
+color:white;
+font-size: 17px;
+}
+
+#textcolor5{
+color:white;
+font-size: 17px;
+}
+
+#textcolor5 p{
+color:white;
+font-size: 17px;
+}
+
+#textcolor6 h4{
+color:white;
+}
+
+#textcolor7 p{
+color:white;
+}
+
+#textcolor8 p{
+color:white;
+}
+
+#textcolor9 p{
+color:white;
+}
+
+#textcolor10 p{
+color:white;
+}
+
+#textcolor11 p{
+color:white;
+}
+
+#textcolor12 h4{
+color:white;
+}
+
+#textcolor13 h4{
+color:white;
+}
+
+#textcolor14 button{
+color:#032E3A;
+}
+
+#textcolor15 button{
+color:#032E3A;
+}
+
+#textcolor16 button{
+color:#032E3A;
+}
+
+#textcolor17 button{
+color:#032E3A;
+}
+
+#textcolor18 button{
+color:#032E3A;
+}
+
+#textcolor19 button{
+color:#032E3A;
+}
+
+#textcolor20 button{
+color:#032E3A;
+}
+
+#textcolor21 button{
+color:#032E3A;
+}
+
+#textcolor22 button{
+color:#032E3A;
+}
+
+#textcolor23 button{
+color:#032E3A;
+}
+
+#textcolor24 button{
+color:#032E3A;
+}
+
+#textcolor25 button{
+color:#032E3A;
+}
+
+#closeM {
 float:right;
 }
 
-#textcolor3{
-color:#032E3A;
+table{
+width: 1200px;
+}
+
+iframe{
+border:0;
 }
