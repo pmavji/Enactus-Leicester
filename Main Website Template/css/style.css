@@ -39,7 +39,8 @@ a:hover, a:focus {
 	color: #f1c40f;
 }
 .img-centered {
-	float:left;
+	display: block;
+	display: inline-block;
 	margin: 0 auto;
 }
 ul, ol {
