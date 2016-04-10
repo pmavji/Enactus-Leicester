@@ -612,11 +612,11 @@ margin-top: 60px;
 #contact-section .social i.fa {
 	font-size: 26px;
 	padding: 4px 5px;
-	color: #f8e287;
+	color: black;
 	transition: all 0.5s;
 }
 #contact-section .social i.fa:hover {
-	color: #032731;
+	color: white;
 }
 #contact-section .btn {
 	background: transparent;
@@ -800,6 +800,34 @@ color:#032E3A;
 
 #textcolor25 button{
 color:#032E3A;
+}
+
+#textcolor26{
+color:black;
+font-size: 17px;
+}
+
+#textcolor27 p{
+color:black;
+font-size: 16px;
+}
+
+#textcolor28 p {
+color:black;
+font-size: 17px;
+}
+
+#textcolor29 p {
+color:black;
+font-size: 17px;
+}
+
+#textcolor30 h2 {
+color:black;
+}
+
+#textcolor31 h3 {
+color:black;
 }
 
 .closeM {
