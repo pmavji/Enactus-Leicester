@@ -67,7 +67,7 @@ ul, ol {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #032e3a;
+	background: white;
 	z-index: 99999;
 	height: 100%;
 }
@@ -107,28 +107,28 @@ hr {
 #menu a.navbar-brand {
 	text-transform: uppercase;
 	font-size: 22px;
-	color: #d9e0e2;
+	color: white;
 	font-weight: 700;
 	letter-spacing: 1px;
 }
 #menu a.navbar-brand i.fa {
-	color: #f3ca27;
+	color: white;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #d9e0e2;
+	color: white;
 	font-size: 13px;
 	letter-spacing: 1px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #f3ca27;
+	color: yellow;
 }
 .on {
-	background-color: #032731 !important;
+	background-color: #FF0000 !important;
 	padding: 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #f3ca27 !important;
+	color: yellow !important;
 	background-color: transparent;
 }
 .navbar-toggle {
@@ -189,22 +189,22 @@ header p {
 	background-color: #c1a618;
 }
 /* Services Section */
-#services-section {
-	padding: 80px 0 100px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
-	background: rgb(3,39,49); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
-	color: #5b777f;
-	background: url(../img/mission.jpg) no-repeat bottom center;
-	background-size: cover;
-	background-attachment: fixed;
+
+#services-section  hr{
+background:#FF0000;
 }
-#services-section h4 {
-	color: white;
-	text-transform: uppercase;
+
+#services-section {
+    padding: 80px 0;
+    background: rgb(3,39,49);
+    background: -moz-linear-gradient(top, rgba(230,230,230,1) 0%, rgba(240,240,240,1) 20%, rgba(240,240,240,1) 100%, rgba(230,230,230,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(230,230,230,1) 0%, rgba(240,240,240,1) 20%, rgba(240,240,240,1) 100%, rgba(230,230,230,1) 100%);
+    background: linear-gradient(to bottom, rgba(230,230,230,1) 0%, rgba(240,240,240,1) 20%, rgba(240,240,240,1) 100%, rgba(230,230,230,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 );
+    color: #5b777f;
+}
+#services-section h2 {
+	color: #FF0000;
 }
 .space {
 	margin-top: 40px;
@@ -227,16 +227,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 /* Gallery Section 
 ==============================*/
 #works-section {
-	padding: 80px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
-	background: rgb(193,166,24); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
-background: url(../img/maxresdefault1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    padding: 80px 0 100px 0;
+    background: rgb(3,39,49);
+    background: -moz-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 100%, rgba(240,240,240,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 100%, rgba(240,240,240,1) 100%);
+    background: linear-gradient(to bottom, rgba(240,240,240,1) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 100%, rgba(240,240,240,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 );
+    color: #5b777f;
 
 }
 #works-section i.fa {
@@ -248,8 +245,13 @@ background: url(../img/maxresdefault1.jpg);
 	padding-bottom: 30px;
 	text-align: center;
 }
+
+#works-section h2 {
+color:#FF0000;
+}
+
 #works-section hr {
-	background: #a9971c;
+	background: #FF0000;
 }
 ul.cat li {
 	display: inline-block;
@@ -313,8 +315,8 @@ ol.type li a:hover {
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
-	color: #c0cbce;
-	background: rgba(3, 46, 58, 0.8);
+	color: white;
+	background: rgba(255, 0, 0, 0.8);
 	padding: 25% 0;
 	height: 100%;
 	width: 100%;
@@ -359,25 +361,34 @@ ol.type li a:hover {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	background: rgb(145,161,163); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(126,140,144,1) 0%, rgba(145,161,163,1) 25%, rgba(145,161,163,1) 75%, rgba(126,140,144,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(126,140,144,1) 0%, rgba(145,161,163,1) 25%, rgba(145,161,163,1) 75%, rgba(126,140,144,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(126,140,144,1) 0%, rgba(145,161,163,1) 25%, rgba(145,161,163,1) 75%, rgba(126,140,144,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	background: -moz-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 100%, rgba(240,240,240,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 100%, rgba(240,240,240,1) 100%);
+    background: linear-gradient(to bottom, rgba(240,240,240,1) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 100%, rgba(240,240,240,1) 100%);
 }
 .portfolio-modal .modal-content h2 {
 	margin-bottom: 15px;
 	font-size: 2.5em;
+	color:#FF0000;
 }
+
+.portfolio-modal .modal-content h1{
+	color:#FF0000;
+}
+
 .portfolio-modal .modal-content p {
 	margin-bottom: 30px;
+	color:#FF0000;
 }
 .portfolio-modal .modal-content p.item-intro {
 	margin: 10px 0 30px;
 	font-size: 14px;
 	font-style: italic;
+	color:#FF0000;
 }
 .portfolio-modal .modal-content ul.list-inline {
 	margin-top: 0;
 	margin-bottom: 30px;
+	color:#FF0000;
 }
 .portfolio-modal .modal-content img {
 	margin-bottom: 30px;
@@ -414,33 +425,33 @@ ol.type li a:hover {
 	transform: rotate(90deg);
 }
 .portfolio-modal .btn-primary {
-	color: #a7b6ba;
-	background-color: #1d434e;
-	border-color: #1d434e;
+	color: white;
+	background-color: #FF0000;
+	border-color: white;
 }
 .portfolio-modal .btn-primary:hover, .portfolio-modal .btn-primary:focus, .portfolio-modal .btn-primary.focus, .portfolio-modal .btn-primary:active, .portfolio-modal .btn-primary.active {
-	color: #a7b6ba;
+	color: white;
 	background-color: #032e3a;
-	border-color: #032e3a;
+	border-color: white;
 }
 /* About Section */
 #about-section {
-	padding: 80px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
-	background: rgb(3,39,49); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
-	color: #5b777f;
-	background: url(../img/about2.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    padding: 80px 0;
+    background: rgb(3,39,49);
+    background: -moz-linear-gradient(top, rgba(230,230,230,1) 0%, rgba(240,240,240,1) 20%, rgba(240,240,240,1) 100%, rgba(230,230,230,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(230,230,230,1) 0%, rgba(240,240,240,1) 20%, rgba(240,240,240,1) 100%, rgba(230,230,230,1) 100%);
+    background: linear-gradient(to bottom, rgba(230,230,230,1) 0%, rgba(240,240,240,1) 20%, rgba(240,240,240,1) 100%, rgba(230,230,230,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 );
+    color: #5b777f;
 }
-#about-section h4 {
-	color: #81969c;
-	font-size: 20px;
+#about-section h2{
+	color: #FF0000;
 }
+
+#about-section hr {
+	background: #FF0000;
+}
+
 #about-section li {
 	margin-bottom: 6px;
 	list-style: none;
@@ -453,19 +464,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 }
 /* Team Section */
 #team-section {
-	padding: 80px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
-	background: rgb(193,166,24); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
-	background: url(../img/maxresdefault5.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    padding: 80px 0 100px 0;
+    background: rgb(3,39,49);
+    background: -moz-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 100%, rgba(240,240,240,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 100%, rgba(240,240,240,1) 100%);
+    background: linear-gradient(to bottom, rgba(240,240,240,1) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 100%, rgba(240,240,240,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 );
+    color: #5b777f;
+
 }
+
+#team-section h2 {
+	color: #FF0000;
+}
+
+#team-section h3 {
+	color: #FF0000;
+}
+
+#team-section p {
+	color: #FF0000;
+}
+
 #team-section hr {
-	background: #a9971c;
+	background: #FF0000;
 }
 #team-section .item {
 	padding: 0;
@@ -488,7 +510,7 @@ img.img-circle.team-img {
 }
 #team-section i.fa {
 	font-size: 16px;
-	color: #faeaab;
+	color: #FF0000;
 	margin-top: 10px;
 }
 #team-section i.fa:hover {
@@ -516,21 +538,23 @@ img.img-circle.team-img {
 	background: #f1c40f;
 }
 /* Testimonials Section */
+
+#testimonials-section h2 {
+	color: #FF0000;
+}
+
+#testimonials-section hr {
+	background: #FF0000;
+}
+
 #testimonials-section {
-	padding: 80px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
-	background: rgb(3,39,49); /* Old browsers */
-	
-	background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
-	color: #5b777f;
-	
-		background: url(../img/header-bg21.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    padding: 80px 0;
+    background: rgb(3,39,49);
+    background: -moz-linear-gradient(top, rgba(230,230,230,1) 0%, rgba(240,240,240,1) 20%, rgba(240,240,240,1) 100%, rgba(230,230,230,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(230,230,230,1) 0%, rgba(240,240,240,1) 20%, rgba(240,240,240,1) 100%, rgba(230,230,230,1) 100%);
+    background: linear-gradient(to bottom, rgba(230,230,230,1) 0%, rgba(240,240,240,1) 20%, rgba(240,240,240,1) 100%, rgba(230,230,230,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 );
+    color: #5b777f;
 }
 #testimonial {
 	padding: 30px 0;
@@ -547,20 +571,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', end
 }
 /* Contact Section */
 #contact-section {
-	padding: 80px 0 20px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c1a618+0,f1c40f+25,f1c40f+75,c1a618+100 */
-	background: rgb(193,166,24); /* Old browsers */
-	background: -moz-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
-		background: url(../img/contact3.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+    padding: 80px 0 100px 0;
+    background: rgb(3,39,49);
+    background: -moz-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 100%, rgba(240,240,240,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(240,240,240,1) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 100%, rgba(240,240,240,1) 100%);
+    background: linear-gradient(to bottom, rgba(240,240,240,1) 0%, rgba(230,230,230,1) 20%, rgba(230,230,230,1) 100%, rgba(240,240,240,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 );
+    color: #5b777f;
 
 }
 #contact-section hr {
-	background: #a9971c;
+	background: #FF0000;
 }
 #contact-section h3 {
 	font-size: 20px;
@@ -612,26 +633,26 @@ margin-top: 60px;
 #contact-section .social i.fa {
 	font-size: 26px;
 	padding: 4px 5px;
-	color: black;
+	color: #FF0000;
 	transition: all 0.5s;
 }
 #contact-section .social i.fa:hover {
-	color: white;
+	color: #1c424d;
 }
 #contact-section .btn {
 	background: transparent;
-	border: 2px solid #fef9e7;
+	border: 2px solid #FF0000;
 	border-radius: 4px;
 	padding: 6px 14px;
 	margin-top: 20px;
-	color: #fef9e7;
+	color: #FF0000;
 	font-size: 16px;
 	transition: all 0.5s;
 }
 #contact-section .btn:hover, #contact-section .btn:focus {
-	background: #fef9e7;
+	background: #FF0000;
 	border: 2px solid #fef9e7;
-	color: #5b777f;
+	color: white;
 }
 #contact-section .text-danger {
 	color: #cc3300;
@@ -649,7 +670,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Footer */
 #footer {
-	background: #032731;
+	background: #FF0000;
 	padding: 15px 0 10px 0;
 	color: #42626b;
 	text-align: center;
@@ -695,63 +716,63 @@ float:left;
 	}
 
 #textcolor{
-color:white;
+color:#FF0000;
 font-size: 17px;
 }
 
 #textcolor2{
-color:white;
+color:#FF0000;
 }
 
 #textcolor3{
-color:#032E3A;
+color:#FF0000;
 }
 
 #textcolor4{
-color:white;
+color:#FF0000;
 font-size: 17px;
 }
 
 #textcolor5{
-color:white;
+color:#FF0000;
 font-size: 17px;
 }
 
 #textcolor5 p{
-color:white;
+color:#FF0000;
 font-size: 17px;
 }
 
 #textcolor6 h4{
-color:white;
+color:#FF0000;
 }
 
 #textcolor7 p{
-color:white;
+color:#FF0000;
 }
 
 #textcolor8 p{
-color:white;
+color:#FF0000;
 }
 
 #textcolor9 p{
-color:white;
+color:#FF0000;
 }
 
 #textcolor10 p{
-color:white;
+color:#FF0000;
 }
 
 #textcolor11 p{
-color:white;
+color:#FF0000;
 }
 
 #textcolor12 h4{
-color:white;
+color:#FF0000;
 }
 
 #textcolor13 h4{
-color:white;
+color:#FF0000;
 }
 
 #textcolor14 button{
@@ -803,31 +824,35 @@ color:#032E3A;
 }
 
 #textcolor26{
-color:black;
+color:#FF0000;
 font-size: 17px;
 }
 
 #textcolor27 p{
-color:black;
+color:#FF0000;
 font-size: 16px;
 }
 
 #textcolor28 p {
-color:black;
+color:#FF0000;
 font-size: 17px;
 }
 
 #textcolor29 p {
-color:black;
+color:#FF0000;
 font-size: 17px;
 }
 
 #textcolor30 h2 {
-color:black;
+color:#FF0000;
 }
 
 #textcolor31 h3 {
-color:black;
+color:#FF0000;
+}
+
+#textcolor32 {
+color:#FF0000;
 }
 
 .closeM {
